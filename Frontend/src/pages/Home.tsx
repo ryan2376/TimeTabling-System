@@ -1,0 +1,9 @@
+// Home.tsx
+
+export default function Home() {
+    return (
+        <div className="p-6">
+            <h1 className="text-2xl font-bold">Smart School Timetabling System</h1>
+        </div>
+    );
+}
