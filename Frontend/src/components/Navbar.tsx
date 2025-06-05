@@ -11,5 +11,6 @@ export default function Navbar() {
                 <Link to="/teachers" className="hover:underline">Teachers</Link>
             </div>
         </nav>
+        
     );
 }
