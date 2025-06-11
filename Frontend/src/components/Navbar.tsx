@@ -9,6 +9,7 @@ export default function Navbar() {
             <div className="space-x-4">
                 <Link to="/" className="hover:underline">Home</Link>
                 <Link to="/teachers" className="hover:underline">Teachers</Link>
+                <Link to="/about us" className="hover:underline">About U</Link>
             </div>
         </nav>
         
