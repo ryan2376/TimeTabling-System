@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import pool from './db';
+import teacherRoutes from './routes/teachers'
 // import dotenv from 'dotenv';
 
 
@@ -13,6 +14,8 @@ app.use(cors({
     origin: 'http://localhost:3000'
 }));
 app.use(express.json());
+
+app.use('/teachers', teacherRoutes)
 
 // connection test
 pool.connect()
